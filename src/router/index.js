@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomePage from '@/views/Home'
 import LinePage from '@/views/Line'
 import FunctionPage from '@/views/Function'
+import FunctionABCPage from '@/views/FunctionABC'
 import GooglemapPage from '@/views/GoogleMap'
 import PortfolioPage from '@/views/Portfolio'
 import MainLayout from '@/layouts/main/Main'
@@ -21,17 +21,17 @@ export default new Router({
       children: [
         {
           path: '/',
-          redirect: '/DOSCG'
-        },
-        {
-          path: '/DOSCG',
-          name: 'home',
-          component: HomePage
+          redirect: '/DOSCG/portfolio'
         },
         {
           path: '/DOSCG/function',
           name: 'function',
           component: FunctionPage
+        },
+        {
+          path: '/DOSCG/functionabc',
+          name: 'functionabc',
+          component: FunctionABCPage
         },
         {
           path: '/DOSCG/googlemap',

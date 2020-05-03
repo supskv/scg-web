@@ -160,22 +160,6 @@ export default {
       -webkit-transition: 0.3s;
     }
   }
-  h2 {
-    font-size: 60px;
-    font-weight: 700;
-    font-family: Poppins, sans-serif;
-    line-height: 1.4074;
-  }
-  @media (max-width: 768px) {
-    h2 {
-      margin-top: 10px;
-      font-size: 36px;
-    }
-    p {
-      font-size: 18px;
-      line-height: 30px;
-    }
-  }
   .single-tab-content {
     & ul {
       padding: 0;

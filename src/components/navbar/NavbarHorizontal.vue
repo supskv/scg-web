@@ -1,14 +1,13 @@
 <template>
-  <b-navbar type="dark" sticky="true" toggleable="md">
+  <b-navbar type="dark" sticky toggleable="md">
     <b-navbar-brand to="/">DOSCG</b-navbar-brand>
     <b-navbar-toggle target="navbar-toggle-collapse">
     </b-navbar-toggle>
     <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item to="/">Home</b-nav-item>
-        <b-nav-item to="/DOSCG/function">Function</b-nav-item>
+        <b-nav-item to="/DOSCG/function">XYZ</b-nav-item>
+        <b-nav-item to="/DOSCG/functionabc">ABC</b-nav-item>
         <b-nav-item to="/DOSCG/googlemap">Google Map</b-nav-item>
-        <b-nav-item to="/DOSCG/line">Line</b-nav-item>
         <b-nav-item to="/DOSCG/portfolio">CV</b-nav-item>
       </b-navbar-nav>
     </b-collapse>

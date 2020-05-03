@@ -4,11 +4,21 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
+import * as VueGoogleMaps from 'vue2-google-maps'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue)
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyDE2xHmOR937DIGgGHaTkuTfGB4HBQIMxQ',
+    libraries: 'places,directions',
+    region: 'TH',
+    language: 'en'
+  }
+})
 
 Vue.config.productionTip = false
 
