@@ -1,5 +1,5 @@
 <template>
-  <b-navbar type="dark" sticky toggleable="md">
+  <b-navbar type="dark" sticky toggleable="md" class="pb-md-0 pb-2">
     <b-navbar-brand to="/">DOSCG</b-navbar-brand>
     <b-navbar-toggle target="navbar-toggle-collapse"> </b-navbar-toggle>
     <b-collapse id="navbar-toggle-collapse" is-nav>
@@ -25,11 +25,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .navbar {
-  /*padding-left: 50px;*/
-  /*padding-right: 50px;*/
   background: #191919 !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding-bottom: 0;
 }
 >>> .nav-item {
   position: relative;
